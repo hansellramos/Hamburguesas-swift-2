@@ -12,6 +12,8 @@
 		9648B3FE1D80679000AC5BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9648B3FC1D80679000AC5BFB /* Main.storyboard */; };
 		9648B4001D80679000AC5BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9648B3FF1D80679000AC5BFB /* Assets.xcassets */; };
 		9648B4031D80679000AC5BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9648B4011D80679000AC5BFB /* LaunchScreen.storyboard */; };
+		9648B40B1D80682300AC5BFB /* ColeccionDePaises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9648B40A1D80682300AC5BFB /* ColeccionDePaises.swift */; };
+		9648B40E1D80701D00AC5BFB /* ColeccionDeHamburguesas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9648B40D1D80701D00AC5BFB /* ColeccionDeHamburguesas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9648B3FF1D80679000AC5BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9648B4021D80679000AC5BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9648B4041D80679000AC5BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9648B40A1D80682300AC5BFB /* ColeccionDePaises.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColeccionDePaises.swift; path = Hamburguesas/clases/ColeccionDePaises.swift; sourceTree = "<group>"; };
+		9648B40D1D80701D00AC5BFB /* ColeccionDeHamburguesas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColeccionDeHamburguesas.swift; path = Hamburguesas/clases/ColeccionDeHamburguesas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		9648B3EC1D80679000AC5BFB = {
 			isa = PBXGroup;
 			children = (
+				9648B40C1D806FFE00AC5BFB /* clases */,
 				9648B3F71D80679000AC5BFB /* Hamburguesas */,
 				9648B3F61D80679000AC5BFB /* Products */,
 			);
@@ -62,6 +67,15 @@
 				9648B4041D80679000AC5BFB /* Info.plist */,
 			);
 			path = Hamburguesas;
+			sourceTree = "<group>";
+		};
+		9648B40C1D806FFE00AC5BFB /* clases */ = {
+			isa = PBXGroup;
+			children = (
+				9648B40A1D80682300AC5BFB /* ColeccionDePaises.swift */,
+				9648B40D1D80701D00AC5BFB /* ColeccionDeHamburguesas.swift */,
+			);
+			name = clases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9648B3FB1D80679000AC5BFB /* ViewController.swift in Sources */,
+				9648B40B1D80682300AC5BFB /* ColeccionDePaises.swift in Sources */,
 				9648B3F91D80679000AC5BFB /* AppDelegate.swift in Sources */,
+				9648B40E1D80701D00AC5BFB /* ColeccionDeHamburguesas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
