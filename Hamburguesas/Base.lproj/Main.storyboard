@@ -26,13 +26,44 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9VY-Tn-la6">
+                                <rect key="frame" x="204" y="49" width="192" height="30"/>
+                                <state key="normal" title="Pedir una Hamburguesa"/>
+                                <connections>
+                                    <action selector="btnPedirHamburguesa:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XKr-h1-B9Z"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MT2-4C-aXP">
+                                <rect key="frame" x="20" y="116" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBU-iN-zf3">
+                                <rect key="frame" x="20" y="87" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="DdA-TM-W22" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="3Xe-cL-NVO"/>
+                            <constraint firstItem="MT2-4C-aXP" firstAttribute="top" secondItem="RBU-iN-zf3" secondAttribute="bottom" constant="8" symbolic="YES" id="Bdl-bv-Sw8"/>
                             <constraint firstItem="DdA-TM-W22" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ED8-DU-YUw"/>
+                            <constraint firstItem="RBU-iN-zf3" firstAttribute="centerX" secondItem="MT2-4C-aXP" secondAttribute="centerX" id="H6O-oS-MXg"/>
+                            <constraint firstItem="RBU-iN-zf3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-40" id="NPu-Nm-2ta"/>
+                            <constraint firstItem="MT2-4C-aXP" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-40" id="Qef-yw-9hd"/>
+                            <constraint firstItem="RBU-iN-zf3" firstAttribute="top" secondItem="9VY-Tn-la6" secondAttribute="bottom" constant="8" symbolic="YES" id="Ubn-2V-BnH"/>
+                            <constraint firstItem="RBU-iN-zf3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="87" id="k4e-Wj-dpL"/>
+                            <constraint firstItem="RBU-iN-zf3" firstAttribute="centerX" secondItem="DdA-TM-W22" secondAttribute="centerX" id="k4q-kn-feY"/>
+                            <constraint firstItem="RBU-iN-zf3" firstAttribute="centerX" secondItem="9VY-Tn-la6" secondAttribute="centerX" id="qyl-oh-XqL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lblHamburguesa" destination="MT2-4C-aXP" id="g1G-wH-Cvx"/>
+                        <outlet property="lblPais" destination="RBU-iN-zf3" id="yqI-B4-vRg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
